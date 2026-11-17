@@ -1,0 +1,29 @@
+# артефакты сборки и локальные зависимости
+libs/
+wheels/
+dist/
+build/
+*.spec
+*.egg-info/
+__pycache__/
+*.pyc
+.venv/
+.tmp/
+
+# локальные настройки и данные (могут содержать пароль/чужие данные)
+airview_settings.json
+airview_dumps/
+dumps_exe/
+settings_test.json
+
+# скриншоты разработки (в репозитории — только docs/screenshots)
+/*.png
+
+# посторонние проекты в рабочей папке (не относятся к airView)
+accel-menu-go/
+openvpn-menu/
+openvpn-menu-*.tgz
+blank.jpg
+debug.log
+generate_passport_dataset.py
+mikrobill-*.md
