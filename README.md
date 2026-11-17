@@ -1,7 +1,7 @@
 # airView Analyzer
 
 Спектроанализатор для точек Ubiquiti airOS 6.x: живой спектр, Max Hold, Average и водопад
-(PySide6 + PyQtGraph + NumPy). Работает с реальным устройством по TCP 18888 или с
+(PySide6 + PyQtGraph + NumPy). Работает с реальным устройством по TCP 18888 или  с
 синтетикой/записью.
 
 ![Главное окно с живой точки: PowerBeam M5 400, 4920–6100 МГц](docs/screenshots/main-window.png)
